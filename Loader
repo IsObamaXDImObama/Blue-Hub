@@ -2,7 +2,7 @@ local GameSupported = false
 
 local Hub = {
 	[1962086868] = {
-		[1] = "https://raw.githubusercontent.com/JerioFrosty/Blue-Hub/main/Tower-Of-Hell", --[[Tower Of Hell]]--
+		[1] = "https://raw.githubusercontent.com/IsObamaXDImObama/Blue-Hub/main/Tower-Of-Hell", --[[Tower Of Hell]]--
 	},
 }
 
@@ -18,5 +18,7 @@ if GameSupported == true then
       end
    end
 else
-    loadstring(game:HttpGet(('https://raw.githubusercontent.com/JerioFrosty/Blue-Hub/main/Universal-All-Games'), true))()
+    loadstring(game:HttpGet(('https://raw.githubusercontent.com/IsObamaXDImObama/Blue-Hub/main/Universal-All-Games'), true))()
 end
+
+--https://discord.gg/5TABfP5bCe--
