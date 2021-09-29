@@ -1,3 +1,5 @@
+local GameSupported = false
+
 local Hub = {
 	[1962086868] = {
 		[1] = "https://raw.githubusercontent.com/JerioFrosty/Blue-Hub/main/Tower-Of-Hell", --[[Tower Of Hell]]--
@@ -6,6 +8,15 @@ local Hub = {
 
 for i,v in pairs(Hub) do
     if i == game.PlaceId then
-        loadstring(game:HttpGet(v[1]))()
+        GameSupported = true
     end
+end
+if GameSupported == true then
+   for i,v in pairs(Hub) do
+      if i == game.PlaceId then
+	 loadstring(game:HttpGet(v[1]))()
+      end
+   end
+else
+    loadstring(game:HttpGet(('https://raw.githubusercontent.com/JerioFrosty/Blue-Hub/main/Universal-All-Games'), true))()
 end
