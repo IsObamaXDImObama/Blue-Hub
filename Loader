@@ -3,7 +3,7 @@ local Hub = {
 		[1] = "https://raw.githubusercontent.com/IsObamaXDImObama/Blue-Hub/main/Tower-Of-Hell", --[[Tower Of Hell]]--
 	},
     [3623096087] = {
-		[1] = "https://raw.githubusercontent.com/IsObamaXDImObama/Blue-Hub/main/Muscle-Legends", --[[Tower Of Hell]]--
+		[1] = "https://raw.githubusercontent.com/IsObamaXDImObama/Blue-Hub/main/Muscle-Legends", --[[Muscle Legends]]--
 	},
 }
 
