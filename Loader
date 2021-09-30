@@ -2,6 +2,9 @@ local Hub = {
 	[1962086868] = {
 		[1] = "https://raw.githubusercontent.com/IsObamaXDImObama/Blue-Hub/main/Tower-Of-Hell", --[[Tower Of Hell]]--
 	},
+    [3623096087] = {
+		[1] = "https://raw.githubusercontent.com/IsObamaXDImObama/Blue-Hub/main/Muscle-Legends", --[[Tower Of Hell]]--
+	},
 }
 
 for i,v in pairs(Hub) do
